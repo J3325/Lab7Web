@@ -95,7 +95,7 @@ http://localhost:8080/home
 http://localhost:8080/admin/artikel (untuk admin)
 ```
 ### isi routes.php
-```
+```php
 $routes->get('/home', 'page::home');
 $routes->get('/about', 'Page::about');
 $routes->get('/contact', 'Page::contact');
