@@ -89,7 +89,11 @@ database.default.port = 3306
 php spark serve
 ```
 ![doc](ss/3.png)
-
+* jalankan dengan link dibawah ini
+```
+http://localhost:8080/home
+http://localhost:8080/admin/artikel (untuk admin)
+```
 ## dokumentasi
 ### Tampilan codeigniter 4
 ![doc](ss/1.png)
