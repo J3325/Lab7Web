@@ -201,7 +201,7 @@ class Artikel extends BaseController
 ```
 php spark serve
 ```
-![doc](ss/3.png)
+![doc](doc/3.png)
 * jalankan dengan link dibawah ini
 ```
 http://localhost:8080/home
