@@ -1,5 +1,6 @@
 # Lab7Web
 ## UAS 
+
 | Keterangan | Data                |
 | ---------- | ------------------- |
 | **Nama**   | Zaky Putra Pratama |
@@ -9,7 +10,6 @@
 | **Dosen**  | Agung Nugroho, S.Kom., M.Kom. |
 
 ## Daftar Isi Praktikum
-
 | No. | Praktikum       | Link                                                                 |
 |-----|------------------|----------------------------------------------------------------------|
 | 1   | Praktikum 1      | [Lihat](#praktikum-1-php-framework-codeigniter)                      |
@@ -177,7 +177,9 @@ class Artikel extends BaseController
 * Membuat View (index.php, detail.php, admin_index.php): Tampilan untuk frontend dan admin.
 * Routing (app/Config/Routes.php): Menambahkan rute untuk halaman artikel dan admin.
 
+
 ## Pratikum 3: View Layout dan View Cell
+
 ### Tujuan
 * Menggunakan View Layout untuk membuat template tampilan.
 * Implementasi View Cell untuk komponen UI modular.
@@ -222,6 +224,7 @@ $routes->group('admin', function($routes) {
 ```
 ## dokumentasi
 ### Tampilan codeigniter 4
+
 ![doc](doc/1.png)
 ### Tampilan jika eror
 ![doc](doc/2.png)
