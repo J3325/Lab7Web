@@ -294,13 +294,9 @@ Hasil setelah menambah filter kategori di admin artikel
 
 ## Praktikum 8 : AJAX
 AJAX merupakan singkatan dari Asynchronous JavaScript and XML. <br>
-meskipun kepanjangannya menyebutkan XML, pada praktiknya AJAX tidak terbatas pada
-penggunaan XML saja. <br>
-AJAX adalah kumpulan teknik pengembangan web yang <br>
-memungkinkan aplikasi web bekerja secara asynchronous (tidak langsung).<br>
-dengan kata lain, AJAX memungkinkan aplikasi web untuk memperbarui dan <br>
-menampilkan data dari server tanpa harus melakukan reload halaman secara <br>
-keseluruhan. Hal ini membuat aplikasi web terasa lebih responsif dan dinamis.
+meskipun kepanjangannya menyebutkan XML, pada praktiknya AJAX tidak terbatas pada penggunaan XML saja. <br>
+AJAX adalah kumpulan teknik pengembangan web yang memungkinkan aplikasi web bekerja secara asynchronous (tidak langsung).
+dengan kata lain, AJAX memungkinkan aplikasi web untuk memperbarui dan menampilkan data dari server tanpa harus melakukan reload halaman secara keseluruhan. Hal ini membuat aplikasi web terasa lebih responsif dan dinamis.
 
 ### persiapan
 * Download pustaka jQuery versi terbaru dari https://jquery.com dan ekstrak filenya.<br> Salin file jquery-3.7.1.min.js ke folder public/assets/js.
