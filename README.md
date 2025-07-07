@@ -1,4 +1,4 @@
-# Lab7Web and lab8_vuejs
+# Lab11_ci and lab8_vuejs
 ## UAS 
 
 | Keterangan | Data                |
