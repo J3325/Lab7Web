@@ -9,14 +9,18 @@
 <body>
     <div id="container">
         <header>
-            <h1>Layout Sederhana</h1>
+            <h1>Portal Artikel Berita</h1>
         </header>
 
+        <?php
+            $uri = service('uri')->getSegment(1); // ambil bagian pertama dari URL
+        ?>
+
         <nav>
-            <a href="<?= base_url('/home'); ?>" class="active">Home</a>
-            <a href="<?= base_url('/artikel'); ?>">Artikel</a>
-            <a href="<?= base_url('/about'); ?>">About</a>
-            <a href="<?= base_url('/contact'); ?>">Kontak</a>
+            <a href="<?= base_url('/home'); ?>" class="<?= ($uri == 'home' || $uri == '') ? 'active' : ''; ?>">Home</a>
+            <a href="<?= base_url('/artikel'); ?>" class="<?= ($uri == 'artikel') ? 'active' : ''; ?>">Artikel</a>
+            <a href="<?= base_url('/about'); ?>" class="<?= ($uri == 'about') ? 'active' : ''; ?>">About</a>
+            <a href="<?= base_url('/contact'); ?>" class="<?= ($uri == 'contact') ? 'active' : ''; ?>">Kontak</a>
         </nav>
 
         <section id="wrapper">

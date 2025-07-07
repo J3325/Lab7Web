@@ -1,50 +1,143 @@
+/* CSS untuk tombol pencarian */
+.form-search {
+    margin-bottom: 20px; /* Jarak antara form pencarian dan tabel */
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.form-search input[type="text"] {
+    padding: 6px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 250px; /* Lebar input pencarian */
+    font-size: 14px;
+}
+
+.form-search input[type="submit"] {
+    background-color: #007bff; /* Warna biru */
+    color: white;
+    border: none;
+    padding: 6px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 14px;
+}
+
+.form-search input[type="submit"]:hover {
+    background-color: #0056b3; /* Warna biru lebih gelap saat hover */
+}
+
+/* Styling untuk tabel */
 .table {
     width: 100%;
     border-collapse: collapse;
+    margin-top: 10px; /* Jarak antara tabel dan elemen sebelumnya */
 }
 
-/* Warna header tabel */
 .table th {
-    background-color: #5696dc; /* Warna biru */
-    color: white; /* Warna teks putih */
-    padding: 8px;
-    /*border: 1px solid #0056b3; /* Warna border biru lebih gelap */
+    background-color: #5696dc;
+    color: white;
+    padding: 10px 15px;
+    text-align: left; /* Menyesuaikan teks pada header tabel */
 }
 
-/* Warna body tabel */
 .table td {
-    padding: 8px;
-    border: 1px solid #ddd; /* Warna border abu-abu */
+    padding: 10px 15px;
+    border: 1px solid #ddd;
 }
 
-/* Warna baris ganjil */
 .table tr:nth-child(odd) {
-    background-color: #ffffff; /* Warna putih */
+    background-color: #ffffff;
 }
 
-/* Warna baris genap */
 .table tr:nth-child(even) {
-    background-color: #f2f2f2; /* Warna abu-abu muda */
+    background-color: #f2f2f2;
 }
 
-/* Warna saat baris dihover */
 .table tr:hover {
-    background-color: #e0e0e0; /* Warna abu-abu lebih gelap saat dihover */
+    background-color: #e0e0e0;
 }
 
-/* Warna tombol */
+/* Styling untuk tombol aksi */
 .btn {
     padding: 5px 10px;
     text-decoration: none;
     color: white;
-    background-color: #505b67; /* Warna biru */
+    background-color: #505b67;
     border-radius: 4px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #3b4750; /* Efek hover pada tombol umum */
 }
 
 .btn-danger {
-    background-color: #dc3545; /* Warna merah */
+    background-color: #dc3545;
 }
 
 .btn-danger:hover {
-    background-color: #c82333; /* Warna merah lebih gelap saat dihover */
+    background-color: #c82333;
+}
+
+/* Container pagination */
+.pagination-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+/* Daftar pagination */
+ul.pagination {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 5px;
+}
+
+/* Daftar pagination */
+ul.pagination {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 8px; /* beri jarak antar tombol lebih besar */
+}
+
+/* Default link (tidak aktif) */
+.pagination li a {
+    padding: 10px 16px;           /* Ukuran lebih besar */
+    background-color: #ddd;
+    color: #333;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 16px;              /* Lebih jelas */
+}
+
+/* Hover efek */
+.pagination li a:hover {
+    background-color: #bbb;
+}
+
+/* Halaman aktif */
+.pagination li.active span {
+    padding: 10px 16px;           /* Sama besar dengan link */
+    background-color: #007bff;
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Halaman disabled */
+.pagination li.disabled span {
+    padding: 10px 16px;
+    background-color: #f0f0f0;
+    color: #999;
+    border-radius: 6px;
+    font-size: 16px;
 }
